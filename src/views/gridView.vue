@@ -54,7 +54,7 @@ export default{
       if (article.attributes.thumbnail && article.attributes.thumbnail.data.length > 0) {
         return article.attributes.thumbnail.data[0].url;
       } else {
-        // URL de l'image par défaut si le thumbnail n'est pas disponible
+        
         return "../assets/airmax.png";
       }
     },
